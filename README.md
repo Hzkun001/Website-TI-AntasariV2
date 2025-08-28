@@ -1,76 +1,73 @@
-# Portfolio
-![OscarHernandez-portfolio](https://github.com/user-attachments/assets/e284a42b-15c5-495c-99c7-ad5c1eb3bbe7)
-![Deploy Status](https://img.shields.io/badge/Deploy-Vercel-black?style=flat&logo=vercel)
+
+# Website HMTI Antasari V2
+
+Website resmi Himpunan Mahasiswa Teknologi Informasi (HMTI) UIN Antasari Banjarmasin.
+Project ini dibuat dengan Astro, React, Tailwind CSS, dan ReactBits untuk tampilan modern, interaktif, dan responsif.
 
 ---
 
-[Demo](https://oscarhernandez.vercel.app/)
+## Demo
+[Lihat Demo Deploy](https://oscarhernandez.vercel.app/)
 
-[Astro Themes](https://astro.build/themes/details/dark-minimal/)
+## Fitur Utama
+- Navigasi modern dan responsif
+- Home section dengan animasi dan maskot
+- Komponen React interaktif (LetterGlitch, SkillsList, dsb)
+- UI framework: Tailwind CSS & ReactBits
+- Desain adaptif untuk mobile dan desktop
+- Struktur modular dengan Astro components
 
-[ReactBits Showcase](https://www.reactbits.dev/showcase) 
+## Stack
+**Frontend:**
+- Astro
+- React
+- Tailwind CSS
+- TypeScript
+- ReactBits
 
-The component `<LetterGlitch \>` was taken from [ReactBits.dev](https://www.reactbits.dev/)
+**Tools:**
+- Figma, Canva
 
-## **Stack**  
-### **Frontend**  
-![Astro](https://img.shields.io/badge/Astro-FF5D01?logo=astro&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-
-### **Tools**  
-![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white)
-![Prettier](https://img.shields.io/badge/Prettier-F7B93E?logo=prettier&logoColor=black)
-![Canva](https://img.shields.io/badge/Canva-c900c3?logo=canva&logoColor=white)
-
-### **Show your favorite Spotify album (or your own)** ![Spotify](https://img.shields.io/badge/Spotify-06cc1a?logo=spotify&logoColor=white)
-1. Choose your Spotify album
-2. Access the share options
-3. Select 'copy embed code'
-```
-<iframe src="https://open.spotify.com/embed/album/ALBUM_ID" style="border-radius:12px border:0;" class="w-full h-40" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-```
-4. Insert the embed code on footer.astro
-
-That's it!
-
-## **Project structure**
+## Struktur Project
 ```
 public/
-└── svg/
+├── svg/
+│   └── ...
 src/
-├── Components/
-|    ├── contact.astro
-|    ├── footer.astro
-|    ├── home.astro
-|    ├── logoWall.astro
-|    ├── nav.astro
-|    └── projects.astro
+├── components/
+│   ├── contact.astro
+│   ├── footer.astro
+│   ├── home.astro
+│   ├── logoWall.astro
+│   ├── nav.astro
+│   └── ...
 ├── layouts/
-|    └── Layout.astro
+│   └── Layout.astro
 ├── React/
-|    ├── LetterGlitch.tsx
-|    ├── LikeButton.tsx
-|    └── SkillsList.tsx
+│   ├── LetterGlitch.tsx
+│   ├── SkillsList.tsx
+│   └── ...
 └── pages/
-     └── index.astro
+      └── index.astro
 ```
 
-## **Local configuration** 
-1. Clone the repo:  
-```
-git clone https://github.com/gothsec/portfolio
-```
+## Instalasi & Pengembangan Lokal
+1. Clone repo:
+     ```bash
+     git clone https://github.com/Hzkun001/Website-TI-AntasariV2.git
+     ```
 2. Install dependencies:
-```  
-npm install
-```
-3. Start the develpoment server:
-```  
-npm run dev
-```
+     ```bash
+     npm install
+     ```
+3. Jalankan server development:
+     ```bash
+     npm run dev
+     ```
 
-> **Important Notice:**  
-> This project is licensed under the [MIT License](https://opensource.org/licenses/mit).  
-> According to the license terms, any redistribution (including compiled or modified versions), you **must** retain the original copyright 
-> notice and the full license text. Copyright © 2025 Oscar Hernandez. All rights reserved.
+## Kontribusi
+Silakan fork dan pull request untuk kontribusi. Pastikan kode rapi dan sesuai standar.
+
+## Lisensi
+Project ini menggunakan [MIT License](https://opensource.org/licenses/mit).
+Copyright © 2025 HMTI UIN Antasari Banjarmasin.
