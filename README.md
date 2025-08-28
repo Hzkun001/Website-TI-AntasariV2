@@ -7,7 +7,7 @@ Project ini dibuat dengan Astro, React, Tailwind CSS, dan ReactBits untuk tampil
 ---
 
 ## Demo
-[Lihat Demo Deploy]([https://website-ti-antasari-v2.vercel.app/])
+[Lihat Demo Deploy](https://website-ti-antasari-v2.vercel.app/)
 
 ## Fitur Utama
 - Navigasi modern dan responsif
